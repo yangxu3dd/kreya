@@ -1,0 +1,39 @@
+{
+  "id": "7d1119c6-bc57-43f6-ad34-e321c59dafb4",
+  "importStreams": [
+    {
+      "id": "2d85e1da-cd3e-4b02-8b44-7f3d72f40a4e",
+      "name": "campaign payload",
+      "importerName": "ProtoFile",
+      "createMissingOperations": true,
+      "options": {
+        "files": [
+          "../../services-protobuf/protos/campaign_service/campaign_service.proto"
+        ],
+        "importPaths": [
+          "../../services-protobuf/protos"
+        ],
+        "excludedFiles": []
+      }
+    },
+    {
+      "id": "7c221484-ab2e-4954-ab13-e5387ec07b39",
+      "name": "audience service",
+      "importerName": "ProtoFile",
+      "createMissingOperations": true,
+      "options": {
+        "files": [
+          "../../services-protobuf/protos/campaign_service/campaign.proto",
+          "../../services-protobuf/protos/campaign_service/target.proto"
+        ],
+        "importPaths": [
+          "../../services-protobuf/protos"
+        ],
+        "excludedFiles": []
+      }
+    }
+  ],
+  "authConfigs": [],
+  "certificates": [],
+  "proxies": []
+}

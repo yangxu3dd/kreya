@@ -1,0 +1,4 @@
+{
+  "campaignId": "{{ faker.random.uuid }}",
+  "shouldIncludeTagInfo": true
+}

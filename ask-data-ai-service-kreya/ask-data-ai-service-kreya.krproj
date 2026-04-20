@@ -1,0 +1,38 @@
+{
+  "id": "a2d3e4f5-b6c7-8901-defa-bc2345678901",
+  "importStreams": [
+    {
+      "id": "b3e4f5a6-c7d8-9012-efab-cd3456789012",
+      "name": "authorship service",
+      "importerName": "ProtoFile",
+      "createMissingOperations": true,
+      "options": {
+        "files": [
+          "../../services-protobuf/protos/ask_data_ai_service/authorship_service.proto"
+        ],
+        "importPaths": [
+          "../../services-protobuf/protos"
+        ],
+        "excludedFiles": []
+      }
+    },
+    {
+      "id": "c4f5a6b7-d8e9-0123-fabc-de4567890123",
+      "name": "workflow service",
+      "importerName": "ProtoFile",
+      "createMissingOperations": true,
+      "options": {
+        "files": [
+          "../../services-protobuf/protos/ask_data_ai_service/workflow_service.proto"
+        ],
+        "importPaths": [
+          "../../services-protobuf/protos"
+        ],
+        "excludedFiles": []
+      }
+    }
+  ],
+  "authConfigs": [],
+  "certificates": [],
+  "proxies": []
+}
