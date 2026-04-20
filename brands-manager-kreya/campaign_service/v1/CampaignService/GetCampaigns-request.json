@@ -1,0 +1,142 @@
+{
+  "limit": 13,
+  "offset": 820,
+  "include": {
+    "campaignIds": [
+      "distributed Gorgeous Steel Bike initiatives",
+      "bluetooth Money Market Account"
+    ],
+    "externalIds": [
+      "Vanuatu bypass Unbranded Steel Towels",
+      "Intelligent"
+    ],
+    "templateIds": [
+      "Handmade Arkansas",
+      "Investment Account Credit Card Account Dynamic"
+    ],
+    "advertiserIds": [
+      "Realigned Borders",
+      "value-added compress"
+    ],
+    "startAt": "1970-01-01T00:00:12.000000202Z",
+    "endAt": "1970-01-01T00:13:11.000000087Z",
+    "isActive": true,
+    "adGroupIds": [
+      "transmitter",
+      "multimedia sensor logistical"
+    ],
+    "merchantIds": {
+      "ids": [
+        {
+          "idType": "MERCHANT_ID_TYPE_BUSINESS_GROUP_ID",
+          "id": "{{ faker.random.uuid }}"
+        },
+        {
+          "idType": "MERCHANT_ID_TYPE_STORE_ID",
+          "id": "{{ faker.random.uuid }}"
+        }
+      ]
+    },
+    "submarkets": [
+      "Granite",
+      "Assurance payment Awesome Concrete Pants"
+    ],
+    "experiences": [
+      "IN_STORE",
+      "THIRD_PARTY"
+    ],
+    "placementType": [
+      "HOME_PAGE_BANNER",
+      "STORE_PAGE_BANNER"
+    ],
+    "codes": [
+      "platforms compress",
+      "USB"
+    ],
+    "appliedByType": [
+      "Practical content-based multi-byte",
+      "navigate French Southern Territories magenta"
+    ],
+    "createdByEmail": [
+      "Consultant Intelligent",
+      "deliverables Syrian Pound Generic Steel Tuna"
+    ],
+    "createdById": [
+      "{{ faker.random.uuid }}",
+      "{{ faker.random.uuid }}"
+    ],
+    "adIds": [
+      "deposit magnetic",
+      "Lempira"
+    ]
+  },
+  "exclude": {
+    "campaignIds": [
+      "Marketing",
+      "Center"
+    ],
+    "externalIds": [
+      "Antarctica (the territory South of 60 deg S) Metal",
+      "Cotton"
+    ],
+    "templateIds": [
+      "connecting high-level",
+      "Berkshire"
+    ],
+    "advertiserIds": [
+      "Tools & Movies",
+      "Group Frozen open-source"
+    ],
+    "startAt": "1970-01-01T00:11:17.000000887Z",
+    "endAt": "1970-01-01T00:03:34.000000209Z",
+    "isActive": false,
+    "adGroupIds": [
+      "program",
+      "Checking Account auxiliary e-markets"
+    ],
+    "merchantIds": {
+      "ids": [
+        {
+          "idType": "MERCHANT_ID_TYPE_BUSINESS_ID",
+          "id": "{{ faker.random.uuid }}"
+        },
+        {
+          "idType": "MERCHANT_ID_TYPE_BUSINESS_GROUP_ID",
+          "id": "{{ faker.random.uuid }}"
+        }
+      ]
+    },
+    "submarkets": [
+      "Drive connecting Specialist",
+      "port overriding Cyprus"
+    ],
+    "experiences": [
+      "BBOT",
+      "VOICE"
+    ],
+    "placementType": [
+      "SPONSORED_PRODUCTS_DOUBLE_DASH_STORE_SEARCH",
+      "ADDRESS_CHANGE_ANNOUNCEMENT"
+    ],
+    "codes": [
+      "Sweden parsing cross-platform",
+      "Steel Small Steel Sausages Massachusetts"
+    ],
+    "appliedByType": [
+      "quantifying Intelligent Frozen Towels Solomon Islands",
+      "invoice cyan ADP"
+    ],
+    "createdByEmail": [
+      "Fantastic Plastic Computer real-time hacking",
+      "transparent Alley bus"
+    ],
+    "createdById": [
+      "{{ faker.random.uuid }}",
+      "{{ faker.random.uuid }}"
+    ],
+    "adIds": [
+      "ADP Mission green",
+      "Refined Fresh Keyboard"
+    ]
+  }
+}

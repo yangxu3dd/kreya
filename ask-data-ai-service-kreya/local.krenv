@@ -1,0 +1,7 @@
+{
+  "id": "d5e6f7a8-b9c0-1234-abcd-ef5678901234",
+  "color": "#10B981",
+  "globalContent": {
+    "grpc_endpoint": "http://localhost:50051"
+  }
+}

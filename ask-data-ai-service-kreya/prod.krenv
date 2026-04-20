@@ -1,0 +1,7 @@
+{
+  "id": "e6f7a8b9-c0d1-2345-bcde-f67890123456",
+  "color": "#EF4444",
+  "globalContent": {
+    "grpc_endpoint": "http://ask-data-ai-service-grpc-gateway.service.prod.ddsd:50051"
+  }
+}

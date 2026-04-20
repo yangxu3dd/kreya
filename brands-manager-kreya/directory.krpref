@@ -1,0 +1,11 @@
+{
+  "settings": [
+    {
+      "options": {
+        "grpc": {
+          "endpoint": "http://campaign-service-web.service.prod.ddsd:50051"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "campaignId": "{{ faker.random.uuid }}",
+  "deactivationReason": "BUDGET_CAP_REACHED"
+}

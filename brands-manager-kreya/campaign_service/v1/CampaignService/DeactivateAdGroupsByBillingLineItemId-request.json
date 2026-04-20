@@ -1,0 +1,4 @@
+{
+  "campaignId": "{{ faker.random.uuid }}",
+  "billingLineItemId": "{{ faker.random.uuid }}"
+}

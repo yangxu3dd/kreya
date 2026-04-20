@@ -1,0 +1,2217 @@
+{
+  "ad": {
+    "campaignId": "web-readiness",
+    "adGroupId": "Saint Helena Walks",
+    "id": "methodology microchip",
+    "entity": {
+      "type": "COLLECTION",
+      "productIds": {
+        "ids": [
+          {
+            "idType": "PRODUCT_ID_TYPE_TAXONOMY_ID",
+            "id": "{{ faker.random.uuid }}",
+            "options": [
+              null,
+              null
+            ],
+            "isPriority": false,
+            "incentiveCoverage": "UNSPECIFIED"
+          },
+          {
+            "idType": "PRODUCT_ID_TYPE_DD_SIC",
+            "id": "{{ faker.random.uuid }}",
+            "options": [
+              null,
+              null
+            ],
+            "isPriority": false,
+            "incentiveCoverage": "UNSPECIFIED"
+          }
+        ]
+      }
+    },
+    "creatives": [
+      {
+        "type": "CAROUSEL",
+        "keywordCreative": {
+          "keywords": [
+            "Solomon Islands Cross-group Factors",
+            "Technician"
+          ],
+          "url": "{{ faker.internet.url }}"
+        },
+        "sortOrder": 835,
+        "experiments": [
+          {
+            "treatmentBucketNames": [
+              null,
+              null
+            ]
+          },
+          {
+            "treatmentBucketNames": [
+              null,
+              null
+            ]
+          }
+        ]
+      },
+      {
+        "type": "STORE",
+        "keywordCreative": {
+          "keywords": [
+            "upward-trending Licensed Fresh Chair Money Market Account",
+            "Quetzal Accounts"
+          ],
+          "url": "{{ faker.internet.url }}"
+        },
+        "sortOrder": 993,
+        "experiments": [
+          {
+            "treatmentBucketNames": [
+              null,
+              null
+            ]
+          },
+          {
+            "treatmentBucketNames": [
+              null,
+              null
+            ]
+          }
+        ]
+      }
+    ],
+    "incentives": [
+      {
+        "type": "SMART_INCENTIVE",
+        "value": {
+          "type": "FLAT_AMOUNT_OFF",
+          "percent": 123.98138222544641,
+          "minValue": {
+            "sign": false
+          },
+          "maxValue": {
+            "sign": true
+          }
+        },
+        "cartCriteria": [
+          {
+            "type": "PRODUCT_CATEGORY",
+            "minimumSubtotal": {
+              "sign": false
+            },
+            "cartLevel": {
+              "level": "PRIMARY"
+            }
+          },
+          {
+            "type": "PAYMENT_METHOD_DETAILS",
+            "minimumSubtotal": {
+              "sign": true
+            },
+            "cartLevel": {
+              "level": "UNSPECIFIED"
+            }
+          }
+        ],
+        "product": {
+          "productIds": [
+            {
+              "idType": "PRODUCT_ID_TYPE_SKU",
+              "id": "{{ faker.random.uuid }}",
+              "options": [
+                null,
+                null
+              ],
+              "isPriority": true,
+              "incentiveCoverage": "OPTIONAL_COVERAGE"
+            },
+            {
+              "idType": "PRODUCT_ID_TYPE_UPC",
+              "id": "{{ faker.random.uuid }}",
+              "options": [
+                null,
+                null
+              ],
+              "isPriority": true,
+              "incentiveCoverage": "UNSPECIFIED"
+            }
+          ],
+          "discountIncludes": "UNSPECIFIED",
+          "productAndParentProductIds": {
+            "productIds": [
+              null,
+              null
+            ],
+            "parentProductIds": [
+              null,
+              null
+            ]
+          },
+          "productAndOptionIds": [
+            {
+              "itemProductIds": [
+                null,
+                null
+              ],
+              "optionProductIds": [
+                null,
+                null
+              ]
+            },
+            {
+              "itemProductIds": [
+                null,
+                null
+              ],
+              "optionProductIds": [
+                null,
+                null
+              ]
+            }
+          ],
+          "valueCappedOptionalCoverage": {}
+        },
+        "discountMetadata": {
+          "discountType": "DISCOUNT_TYPE_MAKE_IT_CHEAPER",
+          "discountMonetaryField": "DISCOUNT_MONETARY_FIELD_NON_MONETARY_DASHER_ASSIGNMENT",
+          "deliveryFeeDiscountMetadata": {
+            "deliveryFeeDiscountType": "DELIVERY_FEE_DISCOUNT_TYPE_TRY_REDUCED_FEE",
+            "deliveryFeeDiscountSourceType": "DELIVERY_FEE_DISCOUNT_SOURCE_TYPE_LARGE_RETAIL_ORDER",
+            "isDeliveryFeeDiscountVisible": false
+          },
+          "serviceFeeDiscountMetadata": {
+            "serviceFeeDiscountSource": "SERVICE_FEE_DISCOUNT_SOURCE_TYPE_FREE_SAME_DAY_DELIVERY"
+          },
+          "promotionDiscountTarget": "DISCOUNT_TARGET_EXTRA_OPTION",
+          "sourceId": "{{ faker.random.uuid }}",
+          "subscriptionDiscountMetadata": {
+            "isNewSubscriber": true,
+            "consumerSubscriptionStatus": "withdrawal Parks quantifying",
+            "termsAndConditions": {
+              "subtext": [
+                {},
+                {}
+              ]
+            },
+            "upsellDetails": {
+              "upsellConfirmation": {
+                "description": [
+                  {
+                    "type": "UPSELL_CONFIRMATION_DESCRIPTION_SECTION_TYPE_UNKNOWN",
+                    "description": [
+                      null,
+                      null
+                    ],
+                    "badgeSize": "UPSELL_CONFIRMATION_BADGE_SIZE_LARGE"
+                  },
+                  {
+                    "type": "UPSELL_CONFIRMATION_DESCRIPTION_SECTION_TYPE_UNKNOWN",
+                    "description": [
+                      null,
+                      null
+                    ],
+                    "badgeSize": "UPSELL_CONFIRMATION_BADGE_SIZE_XXX_LARGE"
+                  }
+                ],
+                "actions": [
+                  {
+                    "type": "UPSELL_CONFIRMATION_ACTION_TYPE_RESUME_SUBSCRIPTION_AND_CONTINUE",
+                    "parameters": [
+                      {
+                        "key": "UPSELL_CONFIRMATION_ACTION_PARAMETER_TYPE_TOOL_TIP_TEXT"
+                      },
+                      {
+                        "key": "UPSELL_CONFIRMATION_ACTION_PARAMETER_TYPE_SUCCESS_MESSAGE"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "UPSELL_CONFIRMATION_ACTION_TYPE_UNKNOWN",
+                    "parameters": [
+                      {
+                        "key": "UPSELL_CONFIRMATION_ACTION_PARAMETER_TYPE_NATIVE_PAYMENT_STYLE"
+                      },
+                      {
+                        "key": "UPSELL_CONFIRMATION_ACTION_PARAMETER_TYPE_FAILURE_MESSAGE"
+                      }
+                    ]
+                  }
+                ],
+                "accessoryType": "UPSELL_CONFIRMATION_ACCESSORY_TYPE_PAYMENT_METHOD_SELECTION",
+                "headerBadge": "BADGE_TYPE_DEAL_DROPS",
+                "paymentStyleType": "UPSELL_CONFIRMATION_PAYMENT_STYLE_TYPE_DEFAULT",
+                "subscriptionPaymentMethod": {
+                  "partnerName": "UNKNOWN_PARTNER_NAME",
+                  "membershipType": {
+                    "partnerName": "PARTNER_NAME_AFTERPAY"
+                  }
+                },
+                "checkbox": {}
+              },
+              "upsellType": "UPSELL_TYPE_ANNUAL_PLAN",
+              "upsellLocation": "INLINE_BELOW_CART_ITEMS",
+              "upsellAudience": "ANNUAL_UPGRADE_MAX_AND_LCB_FOR_ANNUAL_PLAN_WITHOUT_INTRO_OFFERS",
+              "bannerDetails": {
+                "badgeType": "BANNER_DETAILS_BADGE_TYPE_DASHPASS",
+                "bannerType": "BANNER_DETAILS_BANNER_TYPE_UNSPECIFIED"
+              },
+              "upsellOfferTypes": [
+                "UPSELL_OFFER_TYPE_DEALSPROMO",
+                "UPSELL_OFFER_TYPE_DEALSPROMO"
+              ],
+              "pricePickerDetails": [
+                {},
+                {}
+              ],
+              "ocusBlindnessDetails": {
+                "savingsTier": "SAVINGS_TIER_LOW",
+                "upsellLocation": "STICKY_BELOW_CTA",
+                "billingIntervalType": "OCUS_BILLING_INTERVAL_TYPE_MONTH"
+              }
+            },
+            "subscriptionTrialPlans": [
+              {
+                "recurrenceIntervalType": "YEAR",
+                "trialPlanMetaData": {}
+              },
+              {
+                "recurrenceIntervalType": "WEEK",
+                "trialPlanMetaData": {}
+              }
+            ],
+            "planMetadata": {
+              "planTypes": [
+                "SUBSCRIPTION_PLAN_TYPE_PARTNER_PLAN",
+                "SUBSCRIPTION_PLAN_TYPE_UNKNOWN"
+              ],
+              "recurrenceIntervalType": "YEAR"
+            },
+            "bestEligiblePlanMetadata": {
+              "planTypes": [
+                "SUBSCRIPTION_PLAN_TYPE_ANNUAL_PLAN",
+                "SUBSCRIPTION_PLAN_TYPE_PARTNER_PLAN"
+              ],
+              "recurrenceIntervalType": "YEAR"
+            },
+            "shouldBlockPaymentMethodSwitch": true
+          },
+          "mealPlanMetadata": {},
+          "priorityFeeDiscountMetadata": {
+            "priorityFeeDiscountType": "PRIORITY_FEE_DISCOUNT_TYPE_FREE",
+            "priorityFeeDiscountSourceType": "PRIORITY_FEE_DISCOUNT_SOURCE_TYPE_VIP_UPSELL_V2",
+            "showPriorityFeeNudgeBanner": false,
+            "isPriorityFeeOptionPreselected": false
+          },
+          "discountMessages": {
+            "conditionalDiscountMessages": [
+              {
+                "conditions": [
+                  "DISCOUNT_MESSAGE_CONDITIONAL_IS_SUBTOTAL_NUDGE",
+                  "DISCOUNT_MESSAGE_CONDITIONAL_SUBSCRIPTION_DISCOUNT_APPLIES"
+                ],
+                "bannerDiscountDetails": [
+                  {
+                    "message": "Accounts calculating",
+                    "requiredAction": "PAYMENT_METHOD_INVALID",
+                    "badgeType": "BADGE_TYPE_PROMOTION_APPLIED",
+                    "bannerType": "BANNER_TYPE_DBD_DASHPASS",
+                    "bannerLocation": [
+                      "BANNER_LOCATION_CHECKOUT_INLINE",
+                      "BANNER_LOCATION_CART"
+                    ],
+                    "expandedTooltipBottomsheet": {
+                      "screenDisplayType": "REGULAR",
+                      "sections": [
+                        {
+                          "type": "IMAGE",
+                          "content": [
+                            null,
+                            null
+                          ],
+                          "action": {
+                            "type": "GO_TO_PICKUP_FEED",
+                            "actionDisplayType": "UNKNOWN_ACTION_DISPLAY_TYPE",
+                            "actionParameters": [
+                              {
+                                "key": "PAYMENT_METHOD_OPTIONAL"
+                              },
+                              {
+                                "key": "PLAN_ID"
+                              }
+                            ],
+                            "postAction": "SEND_SHARED_DASHPASS_MEMBERSHIP_LINK",
+                            "postActionParameters": [
+                              {
+                                "key": "ORDER_CART_ID"
+                              },
+                              {
+                                "key": "TRIAL_INTERVAL_TYPE"
+                              }
+                            ]
+                          },
+                          "alignment": "RIGHT",
+                          "richContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_STRIKETHROUGH",
+                                "STYLE_STRIKETHROUGH"
+                              ],
+                              "formatColor": "COLOR_UNKNOWN",
+                              "formatType": "TYPE_UNKNOWN",
+                              "formatAlignment": "ALIGN_CENTER"
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_UNKNOWN",
+                                "STYLE_STRIKETHROUGH"
+                              ],
+                              "formatColor": "COLOR_UNKNOWN",
+                              "formatType": "TYPE_UNKNOWN",
+                              "formatAlignment": "ALIGN_CENTER"
+                            }
+                          ],
+                          "selectContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BOLDED_TITLE_TEXT",
+                          "content": [
+                            null,
+                            null
+                          ],
+                          "action": {
+                            "type": "GO_TO_MANAGE_DASHPASS",
+                            "actionDisplayType": "FLAT_SECONDARY",
+                            "actionParameters": [
+                              {
+                                "key": "FREE_DAYS_GRANT_REASON"
+                              },
+                              {
+                                "key": "FEE_UNIT_AMOUNT"
+                              }
+                            ],
+                            "postAction": "SET_ACTION_DURING_CANCELLATION_FLOW",
+                            "postActionParameters": [
+                              {
+                                "key": "DESCRIPTION"
+                              },
+                              {
+                                "key": "TRANSITION_TYPE"
+                              }
+                            ]
+                          },
+                          "alignment": "CENTER",
+                          "richContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_STRIKETHROUGH",
+                                "STYLE_STRIKETHROUGH"
+                              ],
+                              "formatColor": "COLOR_HIGHLIGHT",
+                              "formatType": "TYPE_UNKNOWN",
+                              "formatAlignment": "ALIGN_CENTER"
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_UNKNOWN",
+                                "STYLE_STRIKETHROUGH"
+                              ],
+                              "formatColor": "COLOR_PRIMARY",
+                              "formatType": "TYPE_UNKNOWN",
+                              "formatAlignment": "ALIGN_CENTER"
+                            }
+                          ],
+                          "selectContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        null,
+                        null
+                      ],
+                      "allowBackNavigation": true,
+                      "analytics": {
+                        "metadata": [
+                          {
+                            "key": "ANALYTICS_KEY_UNKNOWN"
+                          },
+                          {
+                            "key": "ANALYTICS_KEY_UNKNOWN"
+                          }
+                        ]
+                      }
+                    },
+                    "progressBarMetadata": {}
+                  },
+                  {
+                    "message": "backing up Books, Beauty & Books",
+                    "requiredAction": "ADD_STORE_TO_SUPERSAVE",
+                    "badgeType": "BADGE_TYPE_PROMOTION",
+                    "bannerType": "BANNER_TYPE_GENERIC",
+                    "bannerLocation": [
+                      "BANNER_LOCATION_UNKNOWN",
+                      "BANNER_LOCATION_UNKNOWN"
+                    ],
+                    "expandedTooltipBottomsheet": {
+                      "screenDisplayType": "MODAL",
+                      "sections": [
+                        {
+                          "type": "DIVIDER_SPACER",
+                          "content": [
+                            null,
+                            null
+                          ],
+                          "action": {
+                            "type": "RESUME_DASHPASS",
+                            "actionDisplayType": "FLAT_SECONDARY",
+                            "actionParameters": [
+                              {
+                                "key": "COUNTRY_CODE"
+                              },
+                              {
+                                "key": "STRIPE_ID"
+                              }
+                            ],
+                            "postAction": "OPEN_DEEPLINK",
+                            "postActionParameters": [
+                              {
+                                "key": "DEEPLINK_URL"
+                              },
+                              {
+                                "key": "ORDER_CART_ID"
+                              }
+                            ]
+                          },
+                          "alignment": "RIGHT",
+                          "richContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_BOLD",
+                                "STYLE_BOLD"
+                              ],
+                              "formatColor": "COLOR_SECONDARY",
+                              "formatType": "TYPE_UNKNOWN",
+                              "formatAlignment": "ALIGN_RIGHT"
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_STRIKETHROUGH",
+                                "STYLE_STRIKETHROUGH"
+                              ],
+                              "formatColor": "COLOR_UNKNOWN",
+                              "formatType": "TYPE_TEXT",
+                              "formatAlignment": "ALIGN_UNKNOWN"
+                            }
+                          ],
+                          "selectContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "RICH_CARD_RADIO_BUTTON",
+                          "content": [
+                            null,
+                            null
+                          ],
+                          "action": {
+                            "type": "INVALIDATE_SHARED_DASHPASS_MEMBERSHIP",
+                            "actionDisplayType": "PRIMARY",
+                            "actionParameters": [
+                              {
+                                "key": "COUNTRY_CODE"
+                              },
+                              {
+                                "key": "TRANSITION_TYPE"
+                              }
+                            ],
+                            "postAction": "SELECT_RADIO_BUTTON_ACTION",
+                            "postActionParameters": [
+                              {
+                                "key": "CONSENT_OBTAINED"
+                              },
+                              {
+                                "key": "TRIAL_INTERVAL_TYPE"
+                              }
+                            ]
+                          },
+                          "alignment": "RIGHT",
+                          "richContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_STRIKETHROUGH",
+                                "STYLE_STRIKETHROUGH"
+                              ],
+                              "formatColor": "COLOR_TERTIARY",
+                              "formatType": "TYPE_TEXT",
+                              "formatAlignment": "ALIGN_LEFT"
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_UNKNOWN",
+                                "STYLE_STRIKETHROUGH"
+                              ],
+                              "formatColor": "COLOR_SECONDARY",
+                              "formatType": "TYPE_IMAGE_URL",
+                              "formatAlignment": "ALIGN_CENTER"
+                            }
+                          ],
+                          "selectContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        null,
+                        null
+                      ],
+                      "allowBackNavigation": false,
+                      "analytics": {
+                        "metadata": [
+                          {
+                            "key": "ANALYTICS_KEY_SHARING_CODE"
+                          },
+                          {
+                            "key": "ANALYTICS_KEY_UNKNOWN"
+                          }
+                        ]
+                      }
+                    },
+                    "progressBarMetadata": {}
+                  }
+                ],
+                "lineItemTooltip": {
+                  "title": "yellow",
+                  "description": "Fall Brooks"
+                },
+                "isDraft": false,
+                "messageKey": "Toys, Electronics & Garden protocol",
+                "stickyFooterDetails": {
+                  "promoEndTime": "1970-01-01T00:03:39.000000690Z"
+                },
+                "discountMessagingLineItem": {
+                  "label": "copying Credit Card Account",
+                  "highlightType": "BRANDED_LINE"
+                }
+              },
+              {
+                "conditions": [
+                  "DISCOUNT_MESSAGE_CONDITIONAL_EXPRESS_AVAILABLE",
+                  "DISCOUNT_MESSAGE_CONDITIONAL_IS_SUBTOTAL_NUDGE"
+                ],
+                "bannerDiscountDetails": [
+                  {
+                    "message": "North Carolina deposit",
+                    "requiredAction": "OPEN_DASHPASS_PROMO_BOTTOMSHEET",
+                    "badgeType": "BADGE_TYPE_DASHPASS_APPLIED",
+                    "bannerType": "BANNER_TYPE_GENERIC",
+                    "bannerLocation": [
+                      "BANNER_LOCATION_CHECKOUT_INLINE",
+                      "BANNER_LOCATION_CHECKOUT"
+                    ],
+                    "expandedTooltipBottomsheet": {
+                      "screenDisplayType": "UNKNOWN_SCREEN_DISPLAY_TYPE",
+                      "sections": [
+                        {
+                          "type": "PRICE_LINE_ITEM",
+                          "content": [
+                            null,
+                            null
+                          ],
+                          "action": {
+                            "type": "SUBSCRIBE_TO_DASHPASS",
+                            "actionDisplayType": "FLAT_SECONDARY",
+                            "actionParameters": [
+                              {
+                                "key": "COUNTRY_CODE"
+                              },
+                              {
+                                "key": "SUCCESS_MESSAGE"
+                              }
+                            ],
+                            "postAction": "RESUBSCRIBE_TO_DASHPASS",
+                            "postActionParameters": [
+                              {
+                                "key": "TRIAL_ID"
+                              },
+                              {
+                                "key": "FEE_UNIT_AMOUNT"
+                              }
+                            ]
+                          },
+                          "alignment": "DEFAULT",
+                          "richContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_BOLD",
+                                "STYLE_STRIKETHROUGH"
+                              ],
+                              "formatColor": "COLOR_PRIMARY",
+                              "formatType": "TYPE_BANNER",
+                              "formatAlignment": "ALIGN_CENTER"
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_UNKNOWN",
+                                "STYLE_STRIKETHROUGH"
+                              ],
+                              "formatColor": "COLOR_SECONDARY",
+                              "formatType": "TYPE_IMAGE_URL",
+                              "formatAlignment": "ALIGN_RIGHT"
+                            }
+                          ],
+                          "selectContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "HEADER_IMAGE",
+                          "content": [
+                            null,
+                            null
+                          ],
+                          "action": {
+                            "type": "SELECT_RADIO_BUTTON_ACTION",
+                            "actionDisplayType": "FLAT_SECONDARY",
+                            "actionParameters": [
+                              {
+                                "key": "TRIAL_ID"
+                              },
+                              {
+                                "key": "REFUND_TYPE"
+                              }
+                            ],
+                            "postAction": "GO_TO_PICKUP_FEED",
+                            "postActionParameters": [
+                              {
+                                "key": "PAYMENT_METHOD_OPTIONAL"
+                              },
+                              {
+                                "key": "TRIAL_ID"
+                              }
+                            ]
+                          },
+                          "alignment": "LEFT",
+                          "richContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_UNKNOWN",
+                                "STYLE_BOLD"
+                              ],
+                              "formatColor": "COLOR_DISABLED",
+                              "formatType": "TYPE_BADGE",
+                              "formatAlignment": "ALIGN_UNKNOWN"
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_STRIKETHROUGH",
+                                "STYLE_STRIKETHROUGH"
+                              ],
+                              "formatColor": "COLOR_PRIMARY",
+                              "formatType": "TYPE_BADGE",
+                              "formatAlignment": "ALIGN_CENTER"
+                            }
+                          ],
+                          "selectContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        null,
+                        null
+                      ],
+                      "allowBackNavigation": true,
+                      "analytics": {
+                        "metadata": [
+                          {
+                            "key": "ANALYTICS_KEY_UNKNOWN"
+                          },
+                          {
+                            "key": "ANALYTICS_KEY_SHARING_CODE"
+                          }
+                        ]
+                      }
+                    },
+                    "progressBarMetadata": {}
+                  },
+                  {
+                    "message": "Handcrafted Fantastic Soft Towels",
+                    "requiredAction": "PAYMENT_METHOD_INVALID",
+                    "badgeType": "BADGE_TYPE_UNKNOWN",
+                    "bannerType": "BANNER_TYPE_UNKNOWN",
+                    "bannerLocation": [
+                      "BANNER_LOCATION_CART_INLINE",
+                      "BANNER_LOCATION_CART_INLINE"
+                    ],
+                    "expandedTooltipBottomsheet": {
+                      "screenDisplayType": "REGULAR",
+                      "sections": [
+                        {
+                          "type": "BADGE",
+                          "content": [
+                            null,
+                            null
+                          ],
+                          "action": {
+                            "type": "SUBSCRIBE_TO_DASHPASS",
+                            "actionDisplayType": "TERTIARY",
+                            "actionParameters": [
+                              {
+                                "key": "SHARING_CODE"
+                              },
+                              {
+                                "key": "ORDER_CART_ID"
+                              }
+                            ],
+                            "postAction": "RESUBSCRIBE_TO_DASHPASS",
+                            "postActionParameters": [
+                              {
+                                "key": "SUCCESS_MESSAGE"
+                              },
+                              {
+                                "key": "SHARING_CODE"
+                              }
+                            ]
+                          },
+                          "alignment": "RIGHT",
+                          "richContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_BOLD",
+                                "STYLE_UNKNOWN"
+                              ],
+                              "formatColor": "COLOR_HIGHLIGHT",
+                              "formatType": "TYPE_TEXT",
+                              "formatAlignment": "ALIGN_LEFT"
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_UNKNOWN",
+                                "STYLE_UNKNOWN"
+                              ],
+                              "formatColor": "COLOR_PRIMARY",
+                              "formatType": "TYPE_UNKNOWN",
+                              "formatAlignment": "ALIGN_CENTER"
+                            }
+                          ],
+                          "selectContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "UNKNOWN_SECTION_TYPE",
+                          "content": [
+                            null,
+                            null
+                          ],
+                          "action": {
+                            "type": "SET_ACTION_DURING_CANCELLATION_FLOW",
+                            "actionDisplayType": "FLAT_SECONDARY",
+                            "actionParameters": [
+                              {
+                                "key": "ORDER_UUID"
+                              },
+                              {
+                                "key": "NATIVE_PAYMENT_STYLE"
+                              }
+                            ],
+                            "postAction": "GO_TO_HOMEPAGE",
+                            "postActionParameters": [
+                              {
+                                "key": "TRANSITION_TYPE"
+                              },
+                              {
+                                "key": "NUMBER_FREE_DAYS"
+                              }
+                            ]
+                          },
+                          "alignment": "DEFAULT",
+                          "richContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_STRIKETHROUGH",
+                                "STYLE_BOLD"
+                              ],
+                              "formatColor": "COLOR_TERTIARY",
+                              "formatType": "TYPE_BADGE",
+                              "formatAlignment": "ALIGN_CENTER"
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_STRIKETHROUGH",
+                                "STYLE_STRIKETHROUGH"
+                              ],
+                              "formatColor": "COLOR_PRIMARY",
+                              "formatType": "TYPE_IMAGE_URL",
+                              "formatAlignment": "ALIGN_UNKNOWN"
+                            }
+                          ],
+                          "selectContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        null,
+                        null
+                      ],
+                      "allowBackNavigation": true,
+                      "analytics": {
+                        "metadata": [
+                          {
+                            "key": "ANALYTICS_KEY_SHARING_CODE"
+                          },
+                          {
+                            "key": "ANALYTICS_KEY_SHARING_CODE"
+                          }
+                        ]
+                      }
+                    },
+                    "progressBarMetadata": {}
+                  }
+                ],
+                "lineItemTooltip": {
+                  "title": "Nevada disintermediate",
+                  "description": "Handmade e-commerce ubiquitous"
+                },
+                "isDraft": true,
+                "messageKey": "Sleek Metal Table",
+                "stickyFooterDetails": {
+                  "promoEndTime": "1970-01-01T00:16:29.000000962Z"
+                },
+                "discountMessagingLineItem": {
+                  "label": "payment Fantastic Concrete Pizza Mountain",
+                  "highlightType": "BOLD"
+                }
+              }
+            ],
+            "itemLevelDiscountMessages": [
+              {
+                "itemPromoNudgeDetails": [
+                  {
+                    "progress": 259.8616
+                  },
+                  {
+                    "progress": 443.1437
+                  }
+                ],
+                "itemPromoDetails": [
+                  {},
+                  {}
+                ]
+              },
+              {
+                "itemPromoNudgeDetails": [
+                  {
+                    "progress": 890.59045
+                  },
+                  {
+                    "progress": 453.57492
+                  }
+                ],
+                "itemPromoDetails": [
+                  {},
+                  {}
+                ]
+              }
+            ],
+            "campaignTags": [
+              null,
+              null
+            ]
+          },
+          "range": {
+            "setSpecificRate": {}
+          },
+          "projectedPriceDiscountMetadata": {
+            "type": "PROJECTED_PRICE_DISCOUNT_TYPE_UNSPECIFIED",
+            "eligible": false,
+            "updatedItemDetails": {
+              "items": [
+                {
+                  "quantity": 626,
+                  "options": [
+                    null,
+                    null
+                  ],
+                  "maxOptionsDiscountCapCents": "482"
+                },
+                {
+                  "quantity": 403,
+                  "options": [
+                    null,
+                    null
+                  ],
+                  "maxOptionsDiscountCapCents": "872"
+                }
+              ],
+              "numApplications": 180
+            }
+          }
+        },
+        "excludedProductIds": [
+          null,
+          null
+        ]
+      },
+      {
+        "type": "SUBTOTAL",
+        "value": {
+          "type": "SET_VALUE",
+          "percent": 243.58760358052965,
+          "minValue": {
+            "sign": false
+          },
+          "maxValue": {
+            "sign": true
+          }
+        },
+        "cartCriteria": [
+          {
+            "type": "BUNDLE_TYPES",
+            "minimumSubtotal": {
+              "sign": false
+            },
+            "cartLevel": {
+              "level": "PRIMARY"
+            }
+          },
+          {
+            "type": "MAXIMUM_SUBTOTAL",
+            "minimumSubtotal": {
+              "sign": true
+            },
+            "cartLevel": {
+              "level": "UNSPECIFIED"
+            }
+          }
+        ],
+        "product": {
+          "productIds": [
+            {
+              "idType": "PRODUCT_ID_TYPE_TAXONOMY_ID",
+              "id": "{{ faker.random.uuid }}",
+              "options": [
+                null,
+                null
+              ],
+              "isPriority": true,
+              "incentiveCoverage": "UNSPECIFIED"
+            },
+            {
+              "idType": "PRODUCT_ID_TYPE_ITEM_EXTRA_OPTION_ID",
+              "id": "{{ faker.random.uuid }}",
+              "options": [
+                null,
+                null
+              ],
+              "isPriority": true,
+              "incentiveCoverage": "OPTIONAL_COVERAGE"
+            }
+          ],
+          "discountIncludes": "ITEM_ONLY",
+          "productAndParentProductIds": {
+            "productIds": [
+              null,
+              null
+            ],
+            "parentProductIds": [
+              null,
+              null
+            ]
+          },
+          "productAndOptionIds": [
+            {
+              "itemProductIds": [
+                null,
+                null
+              ],
+              "optionProductIds": [
+                null,
+                null
+              ]
+            },
+            {
+              "itemProductIds": [
+                null,
+                null
+              ],
+              "optionProductIds": [
+                null,
+                null
+              ]
+            }
+          ],
+          "valueCappedOptionalCoverage": {}
+        },
+        "discountMetadata": {
+          "discountType": "DISCOUNT_TYPE_LARGE_RETAIL_ORDER",
+          "discountMonetaryField": "DISCOUNT_MONETARY_FIELD_CREDITS_BACK",
+          "deliveryFeeDiscountMetadata": {
+            "deliveryFeeDiscountType": "DELIVERY_FEE_DISCOUNT_TYPE_TRY_FREE",
+            "deliveryFeeDiscountSourceType": "DELIVERY_FEE_DISCOUNT_SOURCE_TYPE_AFFORDABLE_MEAL_DISCOUNT",
+            "isDeliveryFeeDiscountVisible": false
+          },
+          "serviceFeeDiscountMetadata": {
+            "serviceFeeDiscountSource": "SERVICE_FEE_DISCOUNT_SOURCE_TYPE_LARGE_RETAIL_ORDER"
+          },
+          "promotionDiscountTarget": "DISCOUNT_TARGET_ITEM_EXTRA",
+          "sourceId": "{{ faker.random.uuid }}",
+          "subscriptionDiscountMetadata": {
+            "isNewSubscriber": false,
+            "consumerSubscriptionStatus": "Infrastructure",
+            "termsAndConditions": {
+              "subtext": [
+                {},
+                {}
+              ]
+            },
+            "upsellDetails": {
+              "upsellConfirmation": {
+                "description": [
+                  {
+                    "type": "UPSELL_CONFIRMATION_DESCRIPTION_SECTION_TYPE_TAG_TEXT_EMPHASIZED",
+                    "description": [
+                      null,
+                      null
+                    ],
+                    "badgeSize": "UPSELL_CONFIRMATION_BADGE_SIZE_UNSPECIFIED"
+                  },
+                  {
+                    "type": "UPSELL_CONFIRMATION_DESCRIPTION_SECTION_TYPE_TITLE_TEXT",
+                    "description": [
+                      null,
+                      null
+                    ],
+                    "badgeSize": "UPSELL_CONFIRMATION_BADGE_SIZE_X_LARGE"
+                  }
+                ],
+                "actions": [
+                  {
+                    "type": "UPSELL_CONFIRMATION_ACTION_TYPE_MORE_INFO",
+                    "parameters": [
+                      {
+                        "key": "UPSELL_CONFIRMATION_ACTION_PARAMETER_TYPE_FAILURE_MESSAGE"
+                      },
+                      {
+                        "key": "UPSELL_CONFIRMATION_ACTION_PARAMETER_TYPE_PRE_SELECTED_CARD_ID"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "UPSELL_CONFIRMATION_ACTION_TYPE_START_FREE_TRIAL",
+                    "parameters": [
+                      {
+                        "key": "UPSELL_CONFIRMATION_ACTION_PARAMETER_TYPE_UNKNOWN"
+                      },
+                      {
+                        "key": "UPSELL_CONFIRMATION_ACTION_PARAMETER_TYPE_PLAN_ID"
+                      }
+                    ]
+                  }
+                ],
+                "accessoryType": "UPSELL_CONFIRMATION_ACCESSORY_TYPE_ADDITIONAL_BILLING_INFO",
+                "headerBadge": "BADGE_TYPE_UNKNOWN",
+                "paymentStyleType": "UPSELL_CONFIRMATION_PAYMENT_STYLE_TYPE_UNKNOWN",
+                "subscriptionPaymentMethod": {
+                  "partnerName": "PARTNER_NAME_RBC",
+                  "membershipType": {
+                    "partnerName": "PARTNER_NAME_RBC"
+                  }
+                },
+                "checkbox": {}
+              },
+              "upsellType": "UPSELL_TYPE_MINIMUM_SUBTOTAL_GROCERY",
+              "upsellLocation": "STICKY_BELOW_CTA",
+              "upsellAudience": "RESURRECTION_RESUBSCRIBE",
+              "bannerDetails": {
+                "badgeType": "BANNER_DETAILS_BADGE_TYPE_DASHPASS",
+                "bannerType": "BANNER_DETAILS_BANNER_TYPE_UNSPECIFIED"
+              },
+              "upsellOfferTypes": [
+                "UPSELL_OFFER_TYPE_DEALSPROMO",
+                "UPSELL_OFFER_TYPE_DEALSPROMO"
+              ],
+              "pricePickerDetails": [
+                {},
+                {}
+              ],
+              "ocusBlindnessDetails": {
+                "savingsTier": "SAVINGS_TIER_HIGH",
+                "upsellLocation": "STICKY_BELOW_CTA",
+                "billingIntervalType": "OCUS_BILLING_INTERVAL_TYPE_UNSPECIFIED"
+              }
+            },
+            "subscriptionTrialPlans": [
+              {
+                "recurrenceIntervalType": "MONTH",
+                "trialPlanMetaData": {}
+              },
+              {
+                "recurrenceIntervalType": "YEAR",
+                "trialPlanMetaData": {}
+              }
+            ],
+            "planMetadata": {
+              "planTypes": [
+                "SUBSCRIPTION_PLAN_TYPE_PARTNER_PLAN",
+                "SUBSCRIPTION_PLAN_TYPE_PARTNER_PLAN"
+              ],
+              "recurrenceIntervalType": "YEAR"
+            },
+            "bestEligiblePlanMetadata": {
+              "planTypes": [
+                "SUBSCRIPTION_PLAN_TYPE_PARTNER_PLAN",
+                "SUBSCRIPTION_PLAN_TYPE_ANNUAL_PLAN"
+              ],
+              "recurrenceIntervalType": "DAY"
+            },
+            "shouldBlockPaymentMethodSwitch": false
+          },
+          "mealPlanMetadata": {},
+          "priorityFeeDiscountMetadata": {
+            "priorityFeeDiscountType": "PRIORITY_FEE_DISCOUNT_TYPE_CHEAPER",
+            "priorityFeeDiscountSourceType": "PRIORITY_FEE_DISCOUNT_SOURCE_TYPE_TURBO_LUNCH_PROMOTION",
+            "showPriorityFeeNudgeBanner": false,
+            "isPriorityFeeOptionPreselected": true
+          },
+          "discountMessages": {
+            "conditionalDiscountMessages": [
+              {
+                "conditions": [
+                  "DISCOUNT_MESSAGE_CONDITIONAL_EXPRESS_AVAILABLE",
+                  "DISCOUNT_MESSAGE_CONDITIONAL_EXPRESS_AVAILABLE"
+                ],
+                "bannerDiscountDetails": [
+                  {
+                    "message": "Tools & Kids Intelligent Clothing, Industrial & Garden",
+                    "requiredAction": "NO_ACTION",
+                    "badgeType": "BADGE_TYPE_DASHPASS_BADGE_AND_TEXT",
+                    "bannerType": "BANNER_TYPE_HIDE_ON_SCROLL",
+                    "bannerLocation": [
+                      "BANNER_LOCATION_CHECKOUT_INLINE",
+                      "BANNER_LOCATION_CART"
+                    ],
+                    "expandedTooltipBottomsheet": {
+                      "screenDisplayType": "REGULAR",
+                      "sections": [
+                        {
+                          "type": "BOLDED_TITLE_TEXT",
+                          "content": [
+                            null,
+                            null
+                          ],
+                          "action": {
+                            "type": "SUBSCRIBE_TO_DASHPASS",
+                            "actionDisplayType": "PRIMARY",
+                            "actionParameters": [
+                              {
+                                "key": "PAYMENT_METHOD_OPTIONAL"
+                              },
+                              {
+                                "key": "FEE_CURRENCY"
+                              }
+                            ],
+                            "postAction": "SET_ACTION_DURING_CANCELLATION_FLOW",
+                            "postActionParameters": [
+                              {
+                                "key": "NUMBER_FREE_DAYS"
+                              },
+                              {
+                                "key": "SUCCESS_MESSAGE"
+                              }
+                            ]
+                          },
+                          "alignment": "RIGHT",
+                          "richContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_STRIKETHROUGH",
+                                "STYLE_BOLD"
+                              ],
+                              "formatColor": "COLOR_SECONDARY",
+                              "formatType": "TYPE_UNKNOWN",
+                              "formatAlignment": "ALIGN_LEFT"
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_STRIKETHROUGH",
+                                "STYLE_BOLD"
+                              ],
+                              "formatColor": "COLOR_UNKNOWN",
+                              "formatType": "TYPE_TEXT",
+                              "formatAlignment": "ALIGN_RIGHT"
+                            }
+                          ],
+                          "selectContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BADGE",
+                          "content": [
+                            null,
+                            null
+                          ],
+                          "action": {
+                            "type": "CALL_SUPPORT",
+                            "actionDisplayType": "PRIMARY",
+                            "actionParameters": [
+                              {
+                                "key": "TRIAL_ID"
+                              },
+                              {
+                                "key": "FEE_CURRENCY"
+                              }
+                            ],
+                            "postAction": "OPEN_DEEPLINK",
+                            "postActionParameters": [
+                              {
+                                "key": "COUNTRY_CODE"
+                              },
+                              {
+                                "key": "TRIAL_INTERVAL_TYPE"
+                              }
+                            ]
+                          },
+                          "alignment": "LEFT",
+                          "richContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_BOLD",
+                                "STYLE_STRIKETHROUGH"
+                              ],
+                              "formatColor": "COLOR_SECONDARY",
+                              "formatType": "TYPE_TEXT",
+                              "formatAlignment": "ALIGN_RIGHT"
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_BOLD",
+                                "STYLE_STRIKETHROUGH"
+                              ],
+                              "formatColor": "COLOR_DISABLED",
+                              "formatType": "TYPE_TEXT",
+                              "formatAlignment": "ALIGN_LEFT"
+                            }
+                          ],
+                          "selectContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        null,
+                        null
+                      ],
+                      "allowBackNavigation": true,
+                      "analytics": {
+                        "metadata": [
+                          {
+                            "key": "ANALYTICS_KEY_UNKNOWN"
+                          },
+                          {
+                            "key": "ANALYTICS_KEY_UNKNOWN"
+                          }
+                        ]
+                      }
+                    },
+                    "progressBarMetadata": {}
+                  },
+                  {
+                    "message": "mobile Greenland",
+                    "requiredAction": "NO_ACTION",
+                    "badgeType": "BADGE_TYPE_PROMOTION",
+                    "bannerType": "BANNER_TYPE_UNKNOWN",
+                    "bannerLocation": [
+                      "BANNER_LOCATION_CART_INTERSTITIAL",
+                      "BANNER_LOCATION_CHECKOUT_INLINE"
+                    ],
+                    "expandedTooltipBottomsheet": {
+                      "screenDisplayType": "MODAL",
+                      "sections": [
+                        {
+                          "type": "TEXT_WITH_SEPARATE_LABEL_OR_ACTION",
+                          "content": [
+                            null,
+                            null
+                          ],
+                          "action": {
+                            "type": "GO_BACK_TO_ROOT",
+                            "actionDisplayType": "FLAT_SECONDARY",
+                            "actionParameters": [
+                              {
+                                "key": "SUCCESS_MESSAGE"
+                              },
+                              {
+                                "key": "FEE_UNIT_AMOUNT"
+                              }
+                            ],
+                            "postAction": "GO_BACK_TO_ROOT",
+                            "postActionParameters": [
+                              {
+                                "key": "PAYMENT_METHOD_OPTIONAL"
+                              },
+                              {
+                                "key": "SAVINGS_VALUE"
+                              }
+                            ]
+                          },
+                          "alignment": "LEFT",
+                          "richContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_UNKNOWN",
+                                "STYLE_BOLD"
+                              ],
+                              "formatColor": "COLOR_HIGHLIGHT",
+                              "formatType": "TYPE_IMAGE_URL",
+                              "formatAlignment": "ALIGN_UNKNOWN"
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_UNKNOWN",
+                                "STYLE_UNKNOWN"
+                              ],
+                              "formatColor": "COLOR_HIGHLIGHT",
+                              "formatType": "TYPE_BANNER",
+                              "formatAlignment": "ALIGN_CENTER"
+                            }
+                          ],
+                          "selectContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "HEADER_IMAGE",
+                          "content": [
+                            null,
+                            null
+                          ],
+                          "action": {
+                            "type": "TRANSITION_SUBSCRIPTION",
+                            "actionDisplayType": "UNKNOWN_ACTION_DISPLAY_TYPE",
+                            "actionParameters": [
+                              {
+                                "key": "ENTRY_POINT"
+                              },
+                              {
+                                "key": "SUCCESS_MESSAGE"
+                              }
+                            ],
+                            "postAction": "TRANSITION_SUBSCRIPTION",
+                            "postActionParameters": [
+                              {
+                                "key": "TITLE"
+                              },
+                              {
+                                "key": "TITLE"
+                              }
+                            ]
+                          },
+                          "alignment": "RIGHT",
+                          "richContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_STRIKETHROUGH",
+                                "STYLE_BOLD"
+                              ],
+                              "formatColor": "COLOR_HIGHLIGHT",
+                              "formatType": "TYPE_UNKNOWN",
+                              "formatAlignment": "ALIGN_CENTER"
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_UNKNOWN",
+                                "STYLE_STRIKETHROUGH"
+                              ],
+                              "formatColor": "COLOR_HIGHLIGHT",
+                              "formatType": "TYPE_IMAGE_URL",
+                              "formatAlignment": "ALIGN_UNKNOWN"
+                            }
+                          ],
+                          "selectContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        null,
+                        null
+                      ],
+                      "allowBackNavigation": true,
+                      "analytics": {
+                        "metadata": [
+                          {
+                            "key": "ANALYTICS_KEY_UNKNOWN"
+                          },
+                          {
+                            "key": "ANALYTICS_KEY_UNKNOWN"
+                          }
+                        ]
+                      }
+                    },
+                    "progressBarMetadata": {}
+                  }
+                ],
+                "lineItemTooltip": {
+                  "title": "connect Bedfordshire platforms",
+                  "description": "killer"
+                },
+                "isDraft": true,
+                "messageKey": "Fantastic Wooden Chair Rustic mobile",
+                "stickyFooterDetails": {
+                  "promoEndTime": "1970-01-01T00:02:49.000000509Z"
+                },
+                "discountMessagingLineItem": {
+                  "label": "pixel Product extensible",
+                  "highlightType": "BOLD"
+                }
+              },
+              {
+                "conditions": [
+                  "DISCOUNT_MESSAGE_CONDITIONAL_SUBSCRIPTION_DISCOUNT_APPLIES",
+                  "DISCOUNT_MESSAGE_CONDITIONAL_IS_SUBTOTAL_NUDGE"
+                ],
+                "bannerDiscountDetails": [
+                  {
+                    "message": "Cambridgeshire generate",
+                    "requiredAction": "ADD_STORE_TO_SUPERSAVE",
+                    "badgeType": "BADGE_TYPE_DASHPASS_APPLIED",
+                    "bannerType": "BANNER_TYPE_EXPRESS_DELIVERY",
+                    "bannerLocation": [
+                      "BANNER_LOCATION_CART_INLINE",
+                      "BANNER_LOCATION_CHECKOUT"
+                    ],
+                    "expandedTooltipBottomsheet": {
+                      "screenDisplayType": "REGULAR",
+                      "sections": [
+                        {
+                          "type": "RICH_CARD_RADIO_BUTTON",
+                          "content": [
+                            null,
+                            null
+                          ],
+                          "action": {
+                            "type": "GO_TO_HEALTHY_FEED",
+                            "actionDisplayType": "TERTIARY",
+                            "actionParameters": [
+                              {
+                                "key": "DESCRIPTION"
+                              },
+                              {
+                                "key": "FREE_DAYS_GRANT_REASON"
+                              }
+                            ],
+                            "postAction": "CHANGE_PAYMENT",
+                            "postActionParameters": [
+                              {
+                                "key": "UNKNOWN_ACTION_PARAMETER_TYPE"
+                              },
+                              {
+                                "key": "STRIPE_ID"
+                              }
+                            ]
+                          },
+                          "alignment": "CENTER",
+                          "richContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_STRIKETHROUGH",
+                                "STYLE_BOLD"
+                              ],
+                              "formatColor": "COLOR_HIGHLIGHT",
+                              "formatType": "TYPE_IMAGE_URL",
+                              "formatAlignment": "ALIGN_LEFT"
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_BOLD",
+                                "STYLE_UNKNOWN"
+                              ],
+                              "formatColor": "COLOR_TERTIARY",
+                              "formatType": "TYPE_TEXT",
+                              "formatAlignment": "ALIGN_RIGHT"
+                            }
+                          ],
+                          "selectContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "DIVIDER_SPACER",
+                          "content": [
+                            null,
+                            null
+                          ],
+                          "action": {
+                            "type": "GO_TO_HEALTHY_FEED",
+                            "actionDisplayType": "FLAT_SECONDARY",
+                            "actionParameters": [
+                              {
+                                "key": "ORDER_UUID"
+                              },
+                              {
+                                "key": "SAVINGS_VALUE"
+                              }
+                            ],
+                            "postAction": "CANCEL_DASHPASS",
+                            "postActionParameters": [
+                              {
+                                "key": "FEE_UNIT_AMOUNT"
+                              },
+                              {
+                                "key": "TITLE"
+                              }
+                            ]
+                          },
+                          "alignment": "CENTER",
+                          "richContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_STRIKETHROUGH",
+                                "STYLE_STRIKETHROUGH"
+                              ],
+                              "formatColor": "COLOR_TERTIARY",
+                              "formatType": "TYPE_UNKNOWN",
+                              "formatAlignment": "ALIGN_LEFT"
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_UNKNOWN",
+                                "STYLE_UNKNOWN"
+                              ],
+                              "formatColor": "COLOR_SECONDARY",
+                              "formatType": "TYPE_UNKNOWN",
+                              "formatAlignment": "ALIGN_LEFT"
+                            }
+                          ],
+                          "selectContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        null,
+                        null
+                      ],
+                      "allowBackNavigation": false,
+                      "analytics": {
+                        "metadata": [
+                          {
+                            "key": "ANALYTICS_KEY_SHARING_CODE"
+                          },
+                          {
+                            "key": "ANALYTICS_KEY_SHARING_CODE"
+                          }
+                        ]
+                      }
+                    },
+                    "progressBarMetadata": {}
+                  },
+                  {
+                    "message": "Investment Account clicks-and-mortar",
+                    "requiredAction": "ADD_MORE_ITEMS",
+                    "badgeType": "BADGE_TYPE_PROMOTION_APPLIED",
+                    "bannerType": "BANNER_TYPE_GENERIC",
+                    "bannerLocation": [
+                      "BANNER_LOCATION_CART_INLINE",
+                      "BANNER_LOCATION_CART_INTERSTITIAL"
+                    ],
+                    "expandedTooltipBottomsheet": {
+                      "screenDisplayType": "UNKNOWN_SCREEN_DISPLAY_TYPE",
+                      "sections": [
+                        {
+                          "type": "TEXT_WITH_SEPARATE_LABEL_OR_ACTION",
+                          "content": [
+                            null,
+                            null
+                          ],
+                          "action": {
+                            "type": "GRANT_FREE_DASHPASS",
+                            "actionDisplayType": "UNKNOWN_ACTION_DISPLAY_TYPE",
+                            "actionParameters": [
+                              {
+                                "key": "STRIPE_TOKEN"
+                              },
+                              {
+                                "key": "FEE_CURRENCY"
+                              }
+                            ],
+                            "postAction": "SWITCH_TO_MONTHLY_DASHPASS",
+                            "postActionParameters": [
+                              {
+                                "key": "FEE_CURRENCY"
+                              },
+                              {
+                                "key": "TRIAL_INTERVAL_UNITS"
+                              }
+                            ]
+                          },
+                          "alignment": "CENTER",
+                          "richContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_BOLD",
+                                "STYLE_BOLD"
+                              ],
+                              "formatColor": "COLOR_TERTIARY",
+                              "formatType": "TYPE_BADGE",
+                              "formatAlignment": "ALIGN_LEFT"
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_BOLD",
+                                "STYLE_UNKNOWN"
+                              ],
+                              "formatColor": "COLOR_HIGHLIGHT",
+                              "formatType": "TYPE_UNKNOWN",
+                              "formatAlignment": "ALIGN_LEFT"
+                            }
+                          ],
+                          "selectContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "HEADER_IMAGE",
+                          "content": [
+                            null,
+                            null
+                          ],
+                          "action": {
+                            "type": "CONTINUE",
+                            "actionDisplayType": "PRIMARY",
+                            "actionParameters": [
+                              {
+                                "key": "UNKNOWN_ACTION_PARAMETER_TYPE"
+                              },
+                              {
+                                "key": "TRIAL_INTERVAL_UNITS"
+                              }
+                            ],
+                            "postAction": "INVALIDATE_SHARED_DASHPASS_MEMBERSHIP",
+                            "postActionParameters": [
+                              {
+                                "key": "ENTRY_POINT"
+                              },
+                              {
+                                "key": "ENTRY_POINT"
+                              }
+                            ]
+                          },
+                          "alignment": "LEFT",
+                          "richContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_STRIKETHROUGH",
+                                "STYLE_UNKNOWN"
+                              ],
+                              "formatColor": "COLOR_HIGHLIGHT",
+                              "formatType": "TYPE_TEXT",
+                              "formatAlignment": "ALIGN_LEFT"
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ],
+                              "formatStyle": [
+                                "STYLE_UNKNOWN",
+                                "STYLE_UNKNOWN"
+                              ],
+                              "formatColor": "COLOR_HIGHLIGHT",
+                              "formatType": "TYPE_IMAGE_URL",
+                              "formatAlignment": "ALIGN_CENTER"
+                            }
+                          ],
+                          "selectContent": [
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            },
+                            {
+                              "content": [
+                                null,
+                                null
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        null,
+                        null
+                      ],
+                      "allowBackNavigation": true,
+                      "analytics": {
+                        "metadata": [
+                          {
+                            "key": "ANALYTICS_KEY_SHARING_CODE"
+                          },
+                          {
+                            "key": "ANALYTICS_KEY_SHARING_CODE"
+                          }
+                        ]
+                      }
+                    },
+                    "progressBarMetadata": {}
+                  }
+                ],
+                "lineItemTooltip": {
+                  "title": "exploit e-commerce",
+                  "description": "auxiliary"
+                },
+                "isDraft": false,
+                "messageKey": "New Jersey Cambridgeshire cultivate",
+                "stickyFooterDetails": {
+                  "promoEndTime": "1970-01-01T00:11:55.000000799Z"
+                },
+                "discountMessagingLineItem": {
+                  "label": "Montserrat Island productize",
+                  "highlightType": "DEFAULT_HIGHLIGHT"
+                }
+              }
+            ],
+            "itemLevelDiscountMessages": [
+              {
+                "itemPromoNudgeDetails": [
+                  {
+                    "progress": 662.69006
+                  },
+                  {
+                    "progress": 722.52704
+                  }
+                ],
+                "itemPromoDetails": [
+                  {},
+                  {}
+                ]
+              },
+              {
+                "itemPromoNudgeDetails": [
+                  {
+                    "progress": 703.4666
+                  },
+                  {
+                    "progress": 248.44618
+                  }
+                ],
+                "itemPromoDetails": [
+                  {},
+                  {}
+                ]
+              }
+            ],
+            "campaignTags": [
+              null,
+              null
+            ]
+          },
+          "range": {
+            "setSpecificRate": {}
+          },
+          "projectedPriceDiscountMetadata": {
+            "type": "PROJECTED_PRICE_DISCOUNT_TYPE_DASHPASS_IN_STORE_PRICING",
+            "eligible": true,
+            "updatedItemDetails": {
+              "items": [
+                {
+                  "quantity": 365,
+                  "options": [
+                    null,
+                    null
+                  ],
+                  "maxOptionsDiscountCapCents": "545"
+                },
+                {
+                  "quantity": 61,
+                  "options": [
+                    null,
+                    null
+                  ],
+                  "maxOptionsDiscountCapCents": "840"
+                }
+              ],
+              "numApplications": 517
+            }
+          }
+        },
+        "excludedProductIds": [
+          null,
+          null
+        ]
+      }
+    ],
+    "metadata": {
+      "createdBy": {
+        "id": "{{ faker.random.uuid }}",
+        "localizedNames": {}
+      },
+      "updatedBy": {
+        "id": "{{ faker.random.uuid }}",
+        "localizedNames": {}
+      }
+    },
+    "titleOverride": "Svalbard & Jan Mayen Islands Buckinghamshire",
+    "descriptionOverride": "Chief input copying",
+    "appliedBy": [
+      "CLAIM",
+      "CLAIM"
+    ],
+    "cartCriteria": [
+      null,
+      null
+    ],
+    "externalId": "Berkshire Sleek Granite Mouse Bedfordshire",
+    "codes": [
+      "concept Networked",
+      "Awesome Rubber Chips Handmade"
+    ],
+    "errorMessageOverrides": [
+      {
+        "key": "NOT_VALID",
+        "message": "neutral Gorgeous Plastic Shoes"
+      },
+      {
+        "key": "CART_CRITERION_MINIMUM_SUBTOTAL",
+        "message": "Designer"
+      }
+    ],
+    "termsAndConditions": [
+      {
+        "contentId": "{{ faker.random.uuid }}",
+        "type": "ITEM_DETAILS",
+        "details": {}
+      },
+      {
+        "contentId": "{{ faker.random.uuid }}",
+        "type": "CUSTOM_TERMS",
+        "details": {}
+      }
+    ],
+    "titleOverridePlaceholders": [
+      {
+        "type": "UNSPECIFIED",
+        "int": 552
+      },
+      {
+        "type": "STRING",
+        "int": 31
+      }
+    ],
+    "descriptionOverridePlaceholders": [
+      {
+        "type": "INT",
+        "int": 616
+      },
+      {
+        "type": "LONG",
+        "int": 981
+      }
+    ],
+    "stackingAttributes": {
+      "tier": "STACKING_TIER_CONDITIONAL_PROMO",
+      "tierRule": "STACKING_TIER_RULE_BEST",
+      "notStackableWith": [
+        "STACKING_TIER_SIMPLE_ITEM_DISCOUNT",
+        "STACKING_TIER_INTEGRATED_OFFER"
+      ]
+    }
+  }
+}

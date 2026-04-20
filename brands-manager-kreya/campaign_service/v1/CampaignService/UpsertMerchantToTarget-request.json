@@ -1,0 +1,16 @@
+{
+  "fileName": "Fort",
+  "campaignId": "monitor zero administration scale",
+  "adGroupId": "Home, Toys & Industrial Iowa Lane",
+  "targetId": "Officer",
+  "merchant": {
+    "merchantId": {
+      "idType": "MERCHANT_ID_TYPE_UNKNOWN",
+      "id": "{{ faker.random.uuid }}"
+    },
+    "bidModifier": {
+      "coefficient": 503.1429465728816
+    }
+  },
+  "transactionId": "Cove"
+}

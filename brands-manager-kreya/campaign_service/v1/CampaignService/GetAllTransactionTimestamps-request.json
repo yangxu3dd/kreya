@@ -1,0 +1,5 @@
+{
+  "campaignId": "{{ faker.random.uuid }}",
+  "limit": 138,
+  "offset": 150
+}

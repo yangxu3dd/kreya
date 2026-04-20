@@ -1,0 +1,13 @@
+{
+  "details": {
+    "methodFqn": "campaign_service.v1.CampaignService.GetAdGroupsByCampaignIdSimple"
+  },
+  "requests": [
+    {
+      "location": "GetAdGroupsByCampaignIdSimple-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc",
+  "importStreamId": "2d85e1da-cd3e-4b02-8b44-7f3d72f40a4e"
+}

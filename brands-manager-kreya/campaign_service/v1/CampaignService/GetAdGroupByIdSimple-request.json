@@ -1,0 +1,3 @@
+{
+  "adGroupId": "{{ faker.random.uuid }}"
+}
